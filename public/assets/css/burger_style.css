@@ -1,0 +1,102 @@
+
+
+body{
+    background: orangered;
+}
+header {
+    width:100%;
+    position: relative;
+    background-color: white;
+    height: 68px;
+}
+
+#name{
+        width: 960px;
+        margin: 0 auto;
+        height: 100px;
+        
+    }
+#name h1 {
+    background-color: rgb(9, 128, 19);
+    color: #f5ebeb;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 24px;
+}
+nav a {
+    padding-top: 24px;
+    margin-right: 10px;
+}
+
+#article {
+    width: 960px;
+    margin: 0 auto;
+    _border: solid 1px brown;
+    margin-top: 20px;
+}
+#article>div {
+    width: 75%;
+    background-color: white;
+}
+
+img{
+    height: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+   /* scroll-snap-points-y:  */
+}
+
+#info {
+    width: 960px;
+    margin: 0 auto;
+    _border: solid 1px brown;
+    margin-top: 20px;
+}
+#info>div {
+    width: 100%;
+    background-color: white;
+}
+h3{
+    color: rgb(138, 207, 143);
+}
+
+#stick-footer{
+    background: orange;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 960px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    overflow:auto;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+@media screen and (max-width: 980px){
+    body {background-color: pink;}
+
+    #article{
+        width: 100%;
+    }
+
+    #name{
+        width: 100%;
+    }
+}
